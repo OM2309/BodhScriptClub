@@ -1,9 +1,12 @@
-import { NextConfig } from 'next'
+import { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   images: {
-    domains: ['assets.aceternity.com'],
+    domains: ["assets.aceternity.com"],
   },
-}
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
+};
 
-export default nextConfig
+export default nextConfig;

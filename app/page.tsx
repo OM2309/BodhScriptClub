@@ -3,7 +3,7 @@
 import HeroSection from "@/components/HeroSection";
 import { FloatingNav } from "@/components/FloatingNav";
 import { Home, Calendar, Info, Users } from "lucide-react";
-import Feature from "@/components/Features";
+import Features from "@/components/Features";
 import { BentoGrid2Comp } from "@/components/BentoGrid";
 import { BackgroundBeamsComp } from "@/components/BackgroundBeamsComp";
 
@@ -19,7 +19,7 @@ export default function Page() {
     <div className="relative w-full flex flex-col items-center justify-center">
       <FloatingNav navItems={navItems} />
       <HeroSection />
-      <Feature />
+      <Features />
       <BentoGrid2Comp />
       <BackgroundBeamsComp />
     </div>
