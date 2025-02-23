@@ -43,7 +43,7 @@ const TypingAnimation = ({
 };
 
 // SplineScene component
-function SplineScene({ scene, className }) {
+function SplineScene({ scene, className }: any) {
   return (
     <Suspense
       fallback={
